@@ -1,0 +1,19 @@
+main{
+    padding-top: 6rem;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+
+form{
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+    background-color: lightgray;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 1rem;
+}

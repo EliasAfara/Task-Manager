@@ -1,0 +1,142 @@
+body{
+    margin: auto;
+    margin-top: 5px;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+    margin: auto;
+}
+.card:before,
+.card:after
+{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+}
+.card:hover:before{
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+.card:hover:after{
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+.card .imgBx{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.card:hover .imgBx
+{
+    bottom: 135px;
+}
+
+.card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .details{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 65px;
+    height: 60px;
+    text-align: center;
+}
+
+.card .details h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+
+}
+
+.card .details .special{
+
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 20px;
+    color:black;
+
+}
+
+.card .details span{
+    font-weight:400;
+    font-size: 20px;
+    color: #3399ff;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.user-head img{
+    margin:0 1em 0 0;
+}
+
+.user-head span{
+    background: rgba(128, 128, 128, 0.24);
+    width:6%;
+    height:1px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.user-head span:nth-child(2){
+    margin-right:1em;
+}
+
+#headingText{
+    font-size:50px;
+    color:#99ccff;
+    margin-top:5px;
+    padding-top: 1rem;
+    font-weight:bold;
+    text-shadow:1px 1px 2px white;;
+    text-align:center;
+}
+
+#footer{
+    padding-top: 2rem;
+    text-align: center;
+}

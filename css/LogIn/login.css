@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#form{
+    margin: auto;
+    width:60vw;
+    height:70vh;
+}
+
+#pu-logo{
+    margin-right: .5rem;
+}
+
+#pu-logo img{
+    display: block;
+    margin: 2rem auto 2rem auto;
+    width: 60%;
+}
+
+#formFields {
+    width: 80%;
+    margin: auto;
+}
+
+.form-group {
+    padding: .1rem 0 2rem 0;
+    color: black;
+    text-align: center;
+}
+
+.form-button{
+    color: white;
+    width: 40%;
+    padding-top: .8rem;
+    padding-bottom: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#form #copyRights {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    color: black;
+    padding-top: 1rem;
+}

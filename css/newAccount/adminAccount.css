@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#form {
+    width: 100vw;
+    height: 100vh;
+}
+
+#pageTitle{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#form #pu-logo img{
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: .8rem;
+    width: 10%;
+}
+
+label{
+    font-weight:bold;
+    font-style: italic;
+}
+
+#formFields {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#emailHelp i,b{
+    color: black;
+}
+
+.form-group{
+    padding: .5rem;
+    color: black;
+    text-align: center;
+}
+
+#registerButton{
+    padding: .5rem;
+}
+
+.form-button {
+    color: black;
+    width: 30%;
+    padding-top: .8rem;
+    padding-bottom: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#copyRights {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#forgot-Password{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    main #image-bg{
+        display: none;
+    }
+
+    main #form{
+        width: 100vw;
+        height: 100vh;
+    }
+}
