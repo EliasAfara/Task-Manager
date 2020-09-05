@@ -44,8 +44,10 @@ CREATE TABLE IF NOT EXISTS `admins` (
 --
 
 INSERT INTO `admins` (`FullName`, `email`, `userName`, `phoneNumber`, `jobOrPosition`, `officeLocation`, `password`) VALUES
-('Tarek swaidane', 'tarekswaidane99@gmail.com', 'tarek.swaidane', '00000000', '٤', 'Tyre', 'nIeNBJ4GKjzFg'),
-('Elias Afara', 'elias@mohmal.co', 'elias.afara', '00000000', '١', 'Tyre', 'nIeNBJ4GKjzFg');
+('Tarek swaidane', 'tarekswaidane8@gmail.com', 'tarek.swaidane', '00000000', '٤', 'Nabatieh', 'nIeNBJ4sadji123kljasdGDjzEg'),
+('Elias Afara', '', 'elias.afara', '0000000', '١', 'Nabatieh', 'nIeNBaslkdjsalkdJ4GDjzEg'),
+('Ali Nehme', 'tarek.tarek@gmail.com', 'ali.nehme', '00000000', '١', 'Nabatieh', 'nIeNkasdjajsdkasdBJ4GDjzEg'),
+('Batoul Mostafa', '', 'batoul.mostafa', '00000000', 'أخر', 'Block A Floor 4', 'nIeNBJ4iasodjaiojdwGDjzEg');
 
 -- --------------------------------------------------------
 
@@ -218,8 +220,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`FullName`, `email`, `userName`, `phoneNumber`, `officeLocation`, `password`, `jobPosition`) VALUES
-('Ali Nehme', '', 'ali.nehme', '00000000', 'Habbouch Floor 1', 'nIeNBJ4GKjzFg', '٢'),
-('Tarek swaidane', 'tarekswaidane99@gmail.com', 'tarek.swaidane', '00000000', 'Nabatieh', 'nIlV6nVsl98kc', '١');
+('Ali Nehme', '', 'ali.nehme', '71757354', 'Habbouch Floor 1', 'nIeNBJ4GDjzEg', '٢'),
+('Tarek swaidane', 'tarekswaidane8@gmail.com', 'tarek.swaidane', '71124561', 'Nabatieh', 'nIlV6mVsl98kc', '١');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
